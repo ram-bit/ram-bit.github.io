@@ -1,6 +1,6 @@
 body {
     /* Location of the image */
-    background-image: url(/Media/Home.jpg);
+    background-image: url(/Media/HOME.jpg);
     
     background-position: center center;    
     background-repeat: no-repeat;
@@ -53,5 +53,5 @@ body {
 
   .home-root center{
       transform: translatey(-50px);
-]      bottom: 50%;
+      bottom: 50%;
   }
