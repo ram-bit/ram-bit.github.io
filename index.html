@@ -1,43 +1,161 @@
-
 <!DOCTYPE html>
-<html lang="en" >
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title>
-            RKAB
-        </title>
-        <meta name="theme-color" content="#ffffff">
-        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
-        <link rel="stylesheet" href="/CSS/home-style.css">
-
-    </head>
-    <body>
-        <div class="topnav">
-            <div class="rkab"><a href="#">rkab</a></div>
-            <div class="app">
-            <a class="face" href="https://www.facebook.com/ram.kabir.2816">
-                <div class="logo-image">
-                      <img src="/Media/Facebook.png" alt="facebook" height="30" width="30">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <a href="#about" class="logo">Ram Kabir</a>
+            <div id="toggling" class="overlay" style="width: 0%;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#about">About</a>
+                    <a href="#services">Education</a>
+                    <a href="#client">Clients</a>
+                    <a href="#cont">Contact</a>
                 </div>
-            </a>
-            <a class="insta" href="https://www.instagram.com/ram_kabir/">
-                <div class="logo-image">
-                       <img src="/Media/insta.png" alt="insta" height="30" width="30">
-                </div>
-            </a>
-            <a class="linked" href="https://www.linkedin.com/in/ram-kabir-2816aug/">
-                <div class="logo-image">
-                       <img src="/Media/linkedin.png" alt="linkedin" height="30" width="30">
-                </div>
-            </a>
             </div>
-            
-      
+            <span style="font-size:30px;cursor:pointer;position:fixed;left:90%" onclick="openNav()">&#9776;</span>
 
-          </div>
-    <div class="home-root">Comming Soon</div>
+<script>
+    
+function openNav() {
+  document.getElementById("toggling").style.width = "100%";
+}
 
-    </body>
+function closeNav() {
+  document.getElementById("toggling").style.width = "0%";
+}
+</script>
+        </header>
+        <img src="/media/bg (1).jpg" alt="background" >
+        <div class="content">
+            <h2>Success by Design</h2>
+            <p>This modern time of digitalization can become more and more helpful for our citizens by our special efforts.I can plan and develop new codes to make your work more easy and simple.I can think both logically and statistically.</p>
+        </div>
+    </div>
+    <section class="about">
+        <div class="contentBx">
+            <h2 class="heading">About Us</h2>
+            <p class="text">
+            A detail oriented, hardworking person with exceptional programming skills pursuing Bachelor of Technology in computer science engineering degree in Computer.
+            Skilled in programming languages and using them for software developing.
+            Proficient in maintaining the existing program with implementation of new techniques.
+            Skilled in leading the team from the front.
+            Remarkable ability in executing the plan with precision.
+            </p>
+        </div>
+        <div class="imgBx"></div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our Services</h2>
+        <p class="text">The top most priorities I looked for when developing or doing something.</p>
+        <div class="container">
+            <div class="serviceBx">
+                <div>
+                    <img src="/media/icon1.png" alt="icon1">
+                    <h2>Design</h2>
+                </div>
+            </div><div class="serviceBx">
+                <div>
+                    <img src="/media/icon2.png" alt="icon2">
+                    <h2>Development</h2>
+                </div>
+            </div><div class="serviceBx">
+                <div>
+                    <img src="/media/icon3.png" alt="icon3">
+                    <h2>Branding</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="technology">
+        <div class="contentBx">
+            <h2 class="heading">We use cutting edge technology</h2>
+            <p class="tect">technology at the frontiers of knowledge. Techniques or achievements that employ the most current and high-level IT developments</p>
+        </div>
+        <div class="imgBx">
+            <img src="/media/tech.png" alt="tech">
+        </div>
+    </section>
+
+    <section id="client" class="client">
+        <h2 class="heading">Dream Company</h2>
+        <p class="text"></p>
+    <div class="imgBx">
+        <img src="/media/brand1.png">
+        <img src="/media/brand2.png">
+        <img src="/media/brand3.png">
+        <img src="/media/brand4.png">
+    </div>
+
+    </section>
+
+    <section class="testimonials">
+        <h2 class="heading">what our clients says</h2>
+        <div class="container">
+            <div class="contentBx">
+                <div>
+                    <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p><br>
+                    <h3> – Martin Fowler</h3>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div>
+                    <p>“When to use iterative development? You should use iterative development only on projects that you want to succeed.”</p><br>
+                    <h3> – Martin Fowler</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cont" class="contact">
+        <h2 class="heading">Contact Us</h2>
+        <p class="text">I loved to work with you, please Contact me for any freelancing service.</p>
+        <div id="cv" class="resume" onclick="downloadResume()"">
+            <a href="/CV.html" target="_blank"><img src="/media/arrow.png" width="50" height="50" ></a>
+        </div>
+        
+    </section>
+    <section class="about">
+        <div class="contentBx redbg">
+            <div class="form">
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Email Address">
+                </div>
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Mobile No.">
+                </div>
+                <div class="inputBx">
+                    <textarea placeholder="Write your message here..."></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" value="send">
+                </div>
+
+            </div>
+        </div>
+        <div class="imgBx2"></div>
+    </section>
+
+    <section class="footer">
+        <p class="text">Design by Kabir</p>
+        <ul>
+            <p class="text">Follow us on:</p>
+            <li><a href="https://www.linkedin.com/in/ram-kabir-2816aug/" target="_blank"><img src="/media/linkedin.png"></a></li>
+            <li><a href="https://www.facebook.com/ram.kabir.2816" target="_blank"><img src="/media/facebook.png"></a></li>
+            <li><a href="https://twitter.com/Ramkabir7" target="_blank"><img src="/media/twitter.png"></a></li>
+        </ul>
+    </section>
+</body>
 </html>
