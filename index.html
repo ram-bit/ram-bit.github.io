@@ -127,21 +127,23 @@ function closeNav() {
     <section class="about">
         <div class="contentBx redbg">
             <div class="form">
+                <form action="contact.php" method="POST">
                 <div class="inputBx">
-                    <input type="text" name="" placeholder="Full Name">
+                    <input type="text" name="name" placeholder="Full Name">
                 </div>
                 <div class="inputBx">
-                    <input type="text" name="" placeholder="Email Address">
+                    <input type="text" name="email" placeholder="Email Address">
                 </div>
                 <div class="inputBx">
-                    <input type="text" name="" placeholder="Mobile No.">
+                    <input type="text" name="mobile" placeholder="Mobile No.">
                 </div>
                 <div class="inputBx">
-                    <textarea placeholder="Write your message here..."></textarea>
+                    <textarea  name="messaage" placeholder="Write your message here..."></textarea>
                 </div>
                 <div class="inputBx">
                     <input type="submit" value="send">
                 </div>
+            </form>
 
             </div>
         </div>
